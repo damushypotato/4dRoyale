@@ -10,7 +10,7 @@ const key = readFileSync(join(__dirname, '../dev/key.txt')).toString();
 (async () => {
     const sc = await screenshot({ format: 'png' });
 
-    // writeFileSync(join(__dirname, '../data/captureNEW.png'), sc);
+    writeFileSync(join(__dirname, '../data/capture.png'), sc);
     // const sc = join(__dirname, '../data/capture.png');
 
     const img = await sharp(sc)
