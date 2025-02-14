@@ -20,8 +20,10 @@
     },
     "dependencies": {
         "deckspyinator": "^1.0.3",
+        "express": "^4.21.1",
         "screenshot-desktop": "^1.15.0",
         "sharp": "^0.33.5",
+        "socket.io": "^4.8.1",
         "tesseract.js": "^5.1.1"
     }
 }
